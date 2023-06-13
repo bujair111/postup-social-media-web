@@ -1,0 +1,24 @@
+<div class="allPost">
+    
+    <div class="blog-post" *ngFor="let post of postes"  >
+        <div class="blog-img">
+            <img [src]="'http://localhost:8000' + post.image" alt="">
+        </div>
+        <div class="blog-content">
+            <div class="blog-author">
+                <img [src]="'http://localhost:8000' + post.user.image"  alt="user">
+                <a (click)="posteProfile(post.user.id)" >{{post.user.name}} </a>
+            </div>
+            <div class="content-box">
+                <h1>{{ post.blogHead }}</h1>
+                <p>{{post.blogBody}}</p>
+            </div>
+            <div class="icon-box">
+                <a (click)="save(post.id)"><i class="bx bx-bookmark"></i></a>
+                <a href="#"><i class="bx bx-heart"></i></a>
+            </div>
+        </div>
+        
+    </div>
+
+</div>

@@ -1,0 +1,43 @@
+<div class="header__wrapper">
+    <header></header>
+    <div class="cols__container">
+        <div class="left__col">
+            <div class="img__container">
+                <img [src]="'http://localhost:8000' +  userImage " alt="Anna Smith" />
+                <span></span>
+            </div>
+            <h2>{{ userDetails.name }}</h2>
+            <p>{{ userDetails.email }}</p>
+
+            <ul class="about">
+                <li><span>4,073</span>Followers</li>
+                <li><span>322</span>Following</li>
+                <li><span>200,543</span>Attraction</li>
+            </ul>
+
+            <div class="content">
+                <p>
+                    {{ userDetails.bio }}
+                </p>
+
+
+            </div>
+        </div>
+        <div class="right__col">
+            <nav>
+                <ul>
+                    <li><a href="">photos</a></li>
+                    <li><a href="">galleries</a></li>
+                    <li><a href="">groups</a></li>
+                    <li><a href="">about</a></li>
+                </ul>
+                <button>Follow</button>
+            </nav>
+
+            <div class="photos">
+                <img *ngFor="let images of userPostDetails" [src]="'http://localhost:8000' + images.image"  alt="user">
+                
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,33 @@
+.container1 {
+    display: flex;
+}
+
+.sidebar1 {
+    width: 200px;
+
+}
+
+.main-content {
+    flex-grow: 1;
+}
+.main111{
+    width: 80px;
+}
+.sidebar1{
+    display: none;
+}
+@media (min-width: 617px) {
+    .sidebar1{
+    display: block;
+
+    }
+}
+/* main-content */
+
+@media (max-width: 617px) {
+    .main-content{
+        display: flex;
+        /* align-items: ; */
+        justify-content: center;
+    }
+}

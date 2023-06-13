@@ -1,0 +1,11 @@
+<app-navebar></app-navebar>
+
+<div class="container1">
+    <div class="sidebar1" (sidebarWidthValue)="sideBarWidthe($event)" [ngClass]="{'main111': status}">
+        <app-saidebar></app-saidebar>
+    </div>
+    <div class="main-content" style="margin-top: 3rem;">
+        <router-outlet></router-outlet>
+    </div>
+</div>
+<app-botbar ></app-botbar>

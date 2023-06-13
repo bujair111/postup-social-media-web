@@ -1,0 +1,10 @@
+<div class="save-head">
+<h3>Saved </h3><span class="material-symbols-outlined">
+    bookmarks
+    </span> 
+</div>
+<div style="width: 100%;height: auto;">
+    <div class="image-gallery"> 
+        <img  *ngFor="let save of saved" [src]="'http://localhost:8000' + save.postId.image" (click)="viewSavedPost(save.postId.id)" alt="img">
+    </div>
+</div>

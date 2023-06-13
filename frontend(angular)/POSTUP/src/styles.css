@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Play&family=Tilt+Warp&display=swap');
+body{
+    margin: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    
+}
+
+:root{
+    --gray:#2f454f;
+    --blue1:#4B49AC;
+    --fontCOLOR:#707786;
+    --orange1:#e67401;
+    --orange2:#ce6b06;
+}

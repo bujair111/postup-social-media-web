@@ -1,0 +1,43 @@
+<div style="width: 100%; display: flex; align-items: center; justify-content: center;">
+
+    <div class="wrapper">
+        <div class="title">
+            new post
+        </div>
+        <div class="form">
+            <form #form="ngForm" (submit)="newPost(form.value)">
+            <div class="inputfield">
+                <label>Blog head</label>
+                <input type="text" ngModel name="blogHead" class="input">
+            </div>
+            <div class="inputfield">
+                <label>blog content</label>
+                <textarea name="blogContent" ngModel class="textarea"></textarea>
+            </div>
+            <div class="inputfield">
+                <label>category</label>
+                <div class="custom_select">
+                    <select name="category" ngModel>
+                        <option value="">Select</option>
+                        <option value="Travel">Travel</option>
+                        <option value="Fashion">Fashion</option>
+                        <option value="Health">Health</option>
+                        <option value="Technology">Technology</option>
+                        <option value="sports">sports</option>
+                        <option value="Food">Food</option>
+                    </select>
+                </div>
+            </div>
+            <div class="inputfield">
+                <label>image</label>
+                <input type="file" (change)="onImageChange($event)" name="image" ngModel class="input">
+            </div>
+
+            <div class="inputfield">
+                <input type="submit" value="Post" class="btn">
+            </div>
+        </form>
+        {{msg}}
+        </div>
+    </div>
+</div>

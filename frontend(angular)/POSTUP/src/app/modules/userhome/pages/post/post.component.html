@@ -1,0 +1,21 @@
+<div class="post-container">
+    <div class="blog-post"   >
+        <div class="blog-img">
+            <img [src]="'http://localhost:8000' + postData.image" alt="">
+        </div>
+        <div class="blog-content">
+            <div class="blog-author">
+                <img [src]="'http://localhost:8000' + postData.user.image"  alt="user">
+
+                <a (click)="posteProfile(postData.user.id)" >{{postData.user.name}}  </a>
+            </div>
+            <div class="content-box">
+                <h1>{{ postData.blogHead }}</h1>
+                <p>{{postData.blogBody}}</p>
+            </div>
+            <div class="icon-box">
+                <a ><i class="bx bx-bookmark"></i></a>
+                <a href="#"><i class="bx bx-heart"></i></a>
+            </div>
+        </div>
+</div>

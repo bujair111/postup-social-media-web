@@ -1,0 +1,67 @@
+
+<section class="sidebar">
+    <div class="nav-header">
+        <p class="logo">PostUp</p>
+        <i id="togleBtn" class="bx bx-menu btn-menu"></i>
+    </div>
+    <ul class="nav-links">
+        <li>
+            <a routerLink="uhome">
+                <i class="bx bx-home-alt-2"></i>
+                <span class="title">Home</span>
+            </a>
+            <span class="tooltip">Home</span>
+        </li>
+        <li>
+            <a routerLink="followers">
+                <i class="bx bx-group"></i>
+                <span class="title">followers</span>
+            </a>
+            <span class="tooltip">followers</span>
+        </li>
+
+        <li>
+            <a routerLink="bookmark">
+                <i class="bx bx-bookmark"></i>
+                <span class="title">save</span>
+            </a>
+            <span class="tooltip">save</span>
+        </li>
+        <li>
+            <a routerLink="notifications">
+                <i class="bx bx-notification"></i>
+                <span class="title">notification</span>
+            </a>
+            <span class="tooltip">notification</span>
+        </li>
+        <li>
+            <a routerLink="profile">
+                <i class="bx bxs-face"></i>
+                <span class="title">profile</span>
+            </a>
+            <span class="tooltip">profile</span>
+        </li>
+        <li>
+            <a routerLink="newPost">
+                <i class="bx bxs-share"></i>
+                <span class="title">new post</span>
+            </a>
+            <span class="tooltip">new post</span>
+        </li>
+        
+        <li>
+            <a routerLink="settings">
+                <i class="bx bx-cog"></i>
+                <span class="title">Setting</span>
+            </a>
+            <span class="tooltip">Setting</span>
+        </li>
+        <li>
+            <a >
+                <i (click)="logout()" class="bx bx-exit"></i>
+                <span  class="title">Logout</span>
+            </a>
+            <span class="tooltip">Logout</span>
+        </li>
+    </ul>
+</section>

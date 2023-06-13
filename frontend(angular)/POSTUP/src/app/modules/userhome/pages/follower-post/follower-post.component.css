@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.allPost{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+
+
+.blog-post{
+    max-width: 400px;
+    height: auto;
+    margin-left: 20px;
+    box-shadow: 1px 1px 1px #bebebe, -0px -0px 10px #fff;
+    margin-top: 20px;
+}
+
+.blog-img{
+    /* width: 100%; */
+    max-width: 400px;
+    max-height: 350px;
+
+}
+
+.blog-img img{
+    width: 100%;
+}
+
+.blog-author img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.blog-author{
+    display: flex;
+    align-items: center;
+}
+
+.blog-author a{
+    text-decoration: none;
+    margin-left: 6px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.blog-author a:hover{
+    text-decoration: underline;
+}
+
+.blog-content{
+    padding: 20px 12px;
+}
+
+
+.content-box h1{
+    font-size: 25px;
+}
+
+.content-box p{
+    font-size: 15px;
+}
+
+.icon-box{
+    margin-top: 10px;
+}
+
+
+.content-box button:hover{
+    background: transparent;
+    color: #333;
+}
+
+.icon-box a{
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+.icon-box a i{
+    margin-right: 4px;
+}
+
+.icon-box a:hover{
+    text-decoration: underline;
+}
+
+
+
