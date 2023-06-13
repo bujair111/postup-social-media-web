@@ -32,7 +32,7 @@ Give a ⭐️ if this project helped you!
 ## About The Project
 <br>
 <p align='center'>
-<img src="https://github.com/Jauharmuhammed/README-Template/blob/main/assets/Mockup-website.png" width='70%' >
+<img src="https://github.com/bujair111/postup-social-media-web/blob/master/frontend(angular)/POSTUP/src/assets/asssets/profile.png" width='70%' >
 </p>
 <br>
 
@@ -58,16 +58,29 @@ Give a ⭐️ if this project helped you!
 
 <td width="50%">
 <p align="center">
-Light Mode
+home
 </p>
-<img src="https://github.com/Jauharmuhammed/README-Template/blob/main/assets/light%20Mode.png">  
+<img src="https://github.com/bujair111/postup-social-media-web/blob/master/frontend(angular)/POSTUP/src/assets/asssets/home.png">  
 </td>
   <td width="50%">      
 <p align="center">
-Dark Mode
+mobail screen
 </p>
-<img src="https://github.com/Jauharmuhammed/README-Template/blob/main/assets/dark-mode.png">
+<img src="https://github.com/bujair111/postup-social-media-web/blob/master/frontend(angular)/POSTUP/src/assets/asssets/mobailhome.png">
 </td> 
+<tr>
+<td width="50%">
+<p align="center">
+bookmark page
+</p>
+<img src="https://github.com/bujair111/postup-social-media-web/blob/master/frontend(angular)/POSTUP/src/assets/asssets/saved.png">  
+</td>
+  <td width="50%">      
+<p align="center">
+signup page
+</p>
+<img src="https://github.com/bujair111/postup-social-media-web/blob/master/frontend(angular)/POSTUP/src/assets/asssets/signup.png">
+</td> 	
 </table>
 <br/>
 
