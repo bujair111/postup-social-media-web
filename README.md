@@ -1,9 +1,9 @@
-<h1 align="center">Welcome to mencub </h1>
+<h1 align="center">Welcome to POSTUP </h1>
 <p>
 </p>
 <div align="center">
-  <a href="https://github.com/jauharmuhammed/README-template">
-    <img src="https://github.com/Jauharmuhammed/README-Template/blob/main/assets/github-logo.svg" alt="Logo" width="80" height="80" border-radius="50%">
+  <a href="https://github.com/bujair111/postup-social-media-web">
+    <img src="https://github.com/bujair111/postup-social-media-web/blob/master/frontend(angular)/POSTUP/src/assets/images/logooooooo.png" alt="Logo" width="80" height="80" border-radius="50%">
   </a>
 
   <h3 align="center">Title</h3>
